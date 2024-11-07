@@ -4,11 +4,14 @@ import { TutorialsListComponent } from './components/tutorials-list/tutorials-li
 import { TutorialDetailsComponent } from './components/tutorial-details/tutorial-details.component';
 import { AddTutorialComponent } from './components/add-tutorial/add-tutorial.component';
 
+// import '../../../react-app/src/*';
+
 const routes: Routes = [
   { path: '', redirectTo: 'tutorials', pathMatch: 'full' },
   { path: 'tutorials', component: TutorialsListComponent },
   { path: 'tutorials/:id', component: TutorialDetailsComponent },
-  { path: 'add', component: AddTutorialComponent }
+  { path: 'add', component: AddTutorialComponent },
+  // { path: 'react', loadChildren: () => import('react-app').then(m => m.ReactAppModule) }
 ];
 
 @NgModule({

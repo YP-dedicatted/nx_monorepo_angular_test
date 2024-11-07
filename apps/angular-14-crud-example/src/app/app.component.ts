@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import '../../../../dist/apps/react-app/assets/index-DYNcxYhB';
 
 @Component({
   selector: 'app-root',
