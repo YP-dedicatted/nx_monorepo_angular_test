@@ -5,12 +5,22 @@
 
 
 ### How to run individually
-`npx nx serve angular-14-crud-example`
-`npx nx serve react-app`
+```text
+npx nx serve angular-14-crud-example
+```
+
+```text
+npx nx serve react-app
+```
 
 ### How to build individually
-`npx nx build angular-14-crud-example`
-`npx nx build react-app`
+```text
+npx nx build angular-14-crud-example
+```
+
+```text
+npx nx build react-app
+```
 
 
 ### How to include react into Angular
